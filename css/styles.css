@@ -1,4 +1,4 @@
-body {
+User body {
   background-color: rgba(250, 222, 226, 0.995);
 }
 
@@ -40,7 +40,10 @@ h2 {
   color: rgb(199, 79, 107);
   border-bottom: 3px solid rgb(199, 79, 107);
 }
-
+h4 {
+  font-size: 28px;
+  color: rgb(199, 79, 107);
+}
 #cv-photo {
   float: right;
   margin-right: 20px;
@@ -57,11 +60,11 @@ main {
 }
 div.gauche {
   flex: 1;
-  border: 2px dotted black;
+  border: 2px dotted rgb(199, 79, 107);
 }
 div.droite {
   flex: 3;
-  border: 2px dotted black;
+  border: 2px dotted rgb(199, 79, 107);
 }
 a {
   color: rgb(199, 79, 107);
@@ -76,5 +79,10 @@ h5 {
   text-align: center;
 }
 p {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+h4 {
   text-align: center;
 }
